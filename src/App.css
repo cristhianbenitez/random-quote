@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  justify-content: end;
+  padding: 2rem 6.25rem;
+}
+
+.random-btn {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 1.25rem;
+  color: #333333;
+}
+
+.quote {
+  margin: auto;
+  max-width: 672px;
+}
+
+.quote__randomQuote {
+  margin-top: 13rem;
+}
+
+.quote__text {
+  font-size: 2.25rem;
+  padding: 0 1.75rem;
+  line-height: 120%;
+  position: relative;
+  margin-bottom: 6.875rem;
+}
+.quote__text:before {
+  content: '';
+  background: #f7df94;
+  position: absolute;
+  width: 8px;
+  height: 100%;
+  left: -72px;
+}
+
+.quote__info {
+  max-width: 672px;
+  padding: 3rem 1.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4f4f4f;
+
+  transition: background 300ms ease-in;
+}
+.quote__info:hover {
+  background: #333333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.quote__info__left-box {
+}
+
+.quote__info__right-box {
+}
+
+.quote__info__author {
+  margin: 0;
+  font-size: 1.5rem;
+  color: currentColor;
+  margin-bottom: 0.5rem;
+}
+
+.quote__info__genre {
+  font-size: 0.875rem;
+  color: #828282;
+}
+
+.quote__info__arrow {
+  font-size: 25px;
+  color: #fff;
+}
+
+.quote__author {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 8.75rem;
+}
